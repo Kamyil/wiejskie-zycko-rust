@@ -1,0 +1,17 @@
+[package]
+name = "wiejskie-zycko-rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# for colorizing logs
+colour = "0.7.0"
+# for... i don't know really what it is, to remove probably
+winit = "0.29.2"
+# for opengl
+gl = "0.14.0"
+# for creating a window
+glfw = {version = "0.53.0", features = ["all"]}
+
